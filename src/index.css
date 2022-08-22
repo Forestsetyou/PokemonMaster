@@ -1,13 +1,182 @@
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font: 14px "Century Gothic", Futura, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: url(./PK3.png);
+    background-size: 1800px;     /* 背景自适应大小 */
+    font-family:"Microsoft YaHei";  /* 微软雅黑字体 */
+    height: 100vmin;    /* 通用高度 */
+    min-height: 800px;  /* 最小高度 */
+    min-width: 1920px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+    margin:0;
+}
+
+p {
+    margin: 0;
+}
+
+.nameAndLV{
+    font-size: 14px;
+    margin-left:6px;
+}
+
+.topBox{
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid green;
+    background-color: silver;
+    padding-bottom: 3px;
+    box-shadow: 0.75px 3px 4px 3px rgba(0,0,0,0.2);
+}
+
+#states{
+    width:64px;
+}
+
+#choosingPage{
+    width:600px;
+    margin: 10vh 40vw;
+}
+
+#box{
+    width: 1000px;
+    margin: 0 21.3vw;
+}
+
+.AVG{
+    height: 250px;
+    margin-top: 15px;
+    margin-left: 7.5px;
+    margin-bottom: 5px;
+}
+
+#HPStream{
+    margin-left: 10px;
+}
+
+#player1{
+    margin:auto;
+    padding-top: 200px;
+    padding: 0;
+    width: 255px;
+}
+
+.middleBox{
+    height: 330px;
+}
+
+.middleDiv{
+    display: inline-block;
+}
+
+#playerMonster{
+    margin:0;
+    padding-right:0px;
+    padding-top: 5px;
+    width: 265px;
+    margin-left:102.5px;
+    height: 320px;
+}
+
+.roundBox_00{
+    width: 265px;
+    display: inline-block;
+    text-align: center;
+    height: 320px;
+    vertical-align: top;
+}
+
+.round{
+    height: 300px;
+}
+
+.roundBlock{
+    height: 300px;
+    display: block;
+}
+
+#CPUMonster{
+    padding-right:0px;
+    padding-top: 5px;
+    width: 265px;
+}
+
+#battleText{
+    margin-left:102.5px;
+    padding:0;
+    background-color:sienna;
+    width: 795px;
+    min-height: 115px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 2px 4px 6px 4px rgba(0,0,0,0.2);
+}
+
+#skillRow{
+    width:261px;
+    vertical-align: middle; 
+    display: inline-block;
+    padding-left: 4px;
+    padding-top: 9px;
+    padding-bottom: 2px;
+}
+
+#skillButton{
+    margin:0;
+    padding:0;
+    margin-left: 5px;
+    width: 265px;
+    min-height: 115px;
+    border-radius: 0 0 10px 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#textBox{
+    display: inline-block;
+    border: 1px solid black;
+    width: 500px;
+    height: 95px;
+    vertical-align: middle;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: darkolivegreen;
+    text-align: center;
+}
+
+#message{
+    margin:1em auto;
+    max-width: 480px;
+}
+
+.leftBut{
+    vertical-align: top;
+    width:127.5px;
+    margin-right: 1px;
+    height: 42px;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.rightBut{
+    vertical-align: top;
+    width:127.5px;
+    margin-left: 1px;
+    height: 42px;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.block{
+    height: 21.3vh;
+}
+
+.cals{
+    border: 4mm ridge red;
+    display:inline;
 }

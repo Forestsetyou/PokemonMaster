@@ -1,0 +1,122 @@
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Choice{
+    display: flex;
+    flex-direction: column;
+}
+.Game{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #948b38;
+    color: white;
+}
+.battle{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Monster{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left:5vmin;
+    margin-right:5vmin;
+    margin-top:4vmin;
+}
+.Mon{
+    height: 20vmin;
+    width: auto;
+}
+.game-info{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   margin-left: 10vmin;
+}
+.Vs{
+    margin-bottom: 1vmin;
+}
+.Vs1{
+    margin-bottom: 0.5vmin;
+}
+.Choice{
+    margin-right: 10vmin;
+}
+.P1{
+    font-size: 6vmin;
+    
+    color:hsl(200,75%,35%);text-shadow:0 0 1px currentColor,
+    -1px -1px 1px hsl(200,75%,45%),
+    0 -1px 1px hsl(200,75%,40%),
+    -1px 0 1px hsl(200,75%,35%),
+    1px -1px 1px hsl(200,75%,35%),
+    1px 0 1px hsl(200,75%,30%),
+    1px 1px 1px hsl(200,75%,30%),
+    0 1px 1px hsl(200,75%,30%),
+    -1px 1px 1px hsl(200,75%,30%),
+    
+    -2px -2px 1px hsl(200,75%,75%),
+    -2px -1px 1px hsl(200,75%,60%),
+    -2px 0 1px hsl(200,75%,60%),
+    -1px -2px 1px hsl(200,75%,50%),
+    0 -2px 1px hsl(200,75%,50%),
+    1px -2px 1px hsl(200,75%,50%),
+    2px -2px 1px hsl(200,75%,35%),
+    2px -1px 1px hsl(200,75%,35%),
+    2px 0 1px hsl(200,75%,30%),
+    2px 1px 1px hsl(200,75%,10%),
+    2px 2px 1px hsl(200,75%,10%),
+    1px 2px 1px hsl(200,75%,15%),
+    0 2px 1px hsl(200,75%,10%),
+    -1px 2px 1px hsl(200,75%,20%),
+    -2px 2px 1px hsl(200,75%,20%),
+    -2px 1px 1px hsl(200,75%,10%),
+    
+    -3px -3px 1px #006,
+    -2px -3px 1px #006,
+    -1px -3px 1px #006,
+    0 -3px 1px #006,
+    1px -3px 1px #006,
+    2px -3px 1px #006,
+    3px -3px 1px #006,
+    3px -2px 1px #006,
+    3px -1px 1px #006,
+    3px 0 1px #006,
+    3px 1px 1px #006,
+    3px 2px 1px #006,
+    3px 3px 2px #006,
+    2px 3px 1px #006,
+    1px 3px 1px #006,
+    0 3px 1px #006,
+    -1px 3px 1px #006,
+    -2px 3px 1px #006,
+    -3px 3px 1px #006,
+    -3px 2px 1px #006,
+    -3px 1px 1px #006,
+    -3px 0 1px #006,
+    -3px -1px 1px #006,
+    -3px -2px 1px #006
+    }
+.HP{
+        color: rgb(209, 145, 71);
+        text-shadow: 0 1px 1px rgb(0, 0, 0);  
+        font-weight: 900;         
+      }
+.FP,.Vs,.Vs1,.game-info{
+    color: #ccc;
+    text-shadow: -1px -1px 0 #fff,1px 1px 0 #333,1px 1px 0 #444;
+  }
+button:visited {
+    color: #666; }
+    button{
+        background-color: #FF4351;
+        border-color: #FF4351;
+        color: #FFF; }
